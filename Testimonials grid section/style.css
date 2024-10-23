@@ -10,8 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 13px;
-    background-color: turquoise;
-    /* border: 5px solid #fff; */
+    background-color: hsl(210, 46%, 95%);
     color: #fff;
     font-family: 'Barlow Semi Condensed', sans-serif;
 
