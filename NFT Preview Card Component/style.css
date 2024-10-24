@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+::selection{
+    background-color: hsl(178, 100%, 50%);
+    color: black;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "outfit",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.card{
+    max-width: 230px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.card-img{
+    position: relative;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+.card-img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.card-name{
+    font-size: 16px;
+    margin: 15px 0px;
+    
+}
+.card-detail{
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    padding-right: 35px;
+}
+
+.author{
+    display: flex;
+    margin: 15px 0px;
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.avatar-image{
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+
+}
+.avatar{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 12px;
+    color: hsl(215, 51%, 70%);
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+ .overlay{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    height: 230px;
+    width: 230px;
+    border-radius: 6px;
+    transition: 1s;
+
+ }
+
+  .overlay-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    
+  }
