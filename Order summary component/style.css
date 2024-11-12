@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./Image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+   
+    background-size: contain;
+    font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.card{
+    max-width: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.hero{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+    
+}
+h3{
+    
+    color: hsl(223, 47%, 23%);
+}
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    margin: 15px 0px;
+}
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 55%, 96%);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+.icon{
+    width: 35px;
+    padding: 10px 0px;
+}
+h4{
+    font-size: 12px;
+    
+}
+.pricing-content{
+    padding-top: 12px;
+}
+.price{
+    color: hsl(224, 23%, 55%);
+    text-align: start;
+    padding-top: 5px;
+}
+.change{
+    padding-top: 18px;
+    font-size: 12px;
+    font-weight: 600;
+   
+}
+.payment{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.cancel{
+    display: block;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 700;
+}
